@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Header contains company name broken into three sections in order to stress the letters "seo" in the middle. Note that colour differential between these sections is very subtle and may benefit from stronger colours, dependent on accessability constraints */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* The three links in nav are only separated by blank space, which is minimal at a font size of 20px */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Main image of team around meeting table is an image with class=hero */
 .hero {
     height: 800px;
     width: 100%;
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Benefits are set out down right hand side of page as an aside element */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +133,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Content categories are set out down the left hand side of the page as article elements*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,7 +187,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* HTML for footer is commented out as this copyright credit does not appear on the image to which we are working */
 .footer {
     padding: 30px;
     clear: both;
